@@ -6,9 +6,10 @@ def find_element_index(array, value_to_find)
   length.times do |index|
     array_item = array[index]
     if value_to_find == array_item
-    
-  
-  
+      return array_item
+    else
+      return nil
+    end
   
 end
 
