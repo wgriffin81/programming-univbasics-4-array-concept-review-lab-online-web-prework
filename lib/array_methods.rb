@@ -15,7 +15,8 @@ end
 
 def find_max_value(array)
   # Add your solution here
- 
+  change_array = array.sort 
+  return change_array[-1]
  
  # counter = 0
   #while array.length < counter do
