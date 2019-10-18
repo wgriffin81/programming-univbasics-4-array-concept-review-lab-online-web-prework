@@ -2,9 +2,9 @@ def find_element_index(array, value_to_find)
   # Add your solution here
   counter = 0
   while counter < array.length 
+    word = array[counter]
     
-    
-    if array[counter] == value_to_find
+    if word == value_to_find
       return value_to_find
     else
       return nil
