@@ -2,16 +2,10 @@ def find_element_index(array, value_to_find)
   # Add your solution here
   counter = 0
   while counter < array.length 
-    word = array[counter]
-    
-    if word == value_to_find
-      return array[counter]
-    else
-      return nil
-    
+    if array[counter] == value_to_find
+      return counter
+      counter +=1
     end
-    
-    counter +=1
   end
 end
 
